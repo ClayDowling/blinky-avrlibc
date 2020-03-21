@@ -16,11 +16,11 @@ int main(void) {
         // Set pin 5 high
         PORTB |= _BV(PORTB5);
 
-        _delay_ms(1000);
+        _delay_ms(BLINK_DELAY);
 
         // Set pin 5 low
         PORTB &= ~_BV(PORTB5);
 
-        _delay_ms(1000);
+        _delay_ms(BLINK_DELAY);
     }
 }
