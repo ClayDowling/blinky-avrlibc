@@ -1,0 +1,2 @@
+GitHub.com/ClayDowling/motor-avrlibc
+www.nongnu.org/avr-libc/
