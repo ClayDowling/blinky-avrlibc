@@ -5,7 +5,7 @@ CC = avr-gcc
 OBJCOPY = objcopy
 AVRDUDE = avrdude
 
-CFLAGS = -Os -w -ffunction-sections -fdata-sections -fno-fat-lto-objects -MMD -mmcu=atmega328p -DF_CPU=16000000L -std=c99
+CFLAGS = -O0 -w -ffunction-sections -fdata-sections -fno-fat-lto-objects -MMD -mmcu=atmega328p -DF_CPU=16000000L -std=c99
 
 $(PROJECT): blinky.o
 	$(CC) $^ -o $@
